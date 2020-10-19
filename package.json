@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "prestart": "npm install",
@@ -17,5 +16,15 @@
     "koa-router": "^9.4.0",
     "koa-static": "^5.0.0",
     "uuid": "^8.3.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasya24/7.3_be.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vasya24/7.3_be/issues"
+  },
+  "homepage": "https://github.com/Vasya24/7.3_be#readme",
+  "description": ""
 }
