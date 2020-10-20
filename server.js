@@ -44,9 +44,14 @@ app.use(async (ctx, next) => {
 app.use(async (ctx) => {
   const { method } = ctx.request.query;
 
+  const images = [];
+
   switch (method) {
     case 'greeting':
       ctx.response.body = 'Please welcome!';
+      return;
+    case 'allImages':
+      ctx.response.body = images;
       return;
     default:
       ctx.response.status = 404;
